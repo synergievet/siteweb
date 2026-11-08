@@ -1,29 +1,50 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Urbanist } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const urbanist = Urbanist({
+  variable: "--font-urbanist",
   subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
 });
+
+const description =
+  "SynergieVet propose des formations continues pratiques pour les vétérinaires de Suisse romande et de France voisine. Se former ensemble pour mieux soigner.";
 
 export const metadata: Metadata = {
-  title: "Synergievet",
-  description: "Site vitrine de Synergievet",
+  metadataBase: new URL("https://www.synergievet.ch"),
+  title: "SynergieVet — Formation continue vétérinaire",
+  description,
+  openGraph: {
+    title: "SynergieVet — Formation continue vétérinaire",
+    description,
+    url: "https://www.synergievet.ch",
+    siteName: "SynergieVet",
+    locale: "fr_CH",
+    type: "website",
+    images: [
+      {
+        url: "/images/equipe.jpg",
+        width: 1600,
+        height: 952,
+        alt: "Les trois associés de SynergieVet",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="fr"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${urbanist.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="flex min-h-full flex-col font-sans">{children}</body>
     </html>
   );
 }

@@ -15,10 +15,12 @@ Puis ouvrir http://localhost:3000.
 
 ## Structure
 
-- `app/page.tsx` : page d'accueil
-- `app/layout.tsx` : mise en page commune (titre, police, balise `<html>`)
-- `app/globals.css` : styles globaux (Tailwind CSS)
-- `public/` : images et fichiers statiques
+- `app/page.tsx` : page d'accueil (assemble les sections)
+- `app/layout.tsx` : mise en page commune (métadonnées, polices Urbanist + Inter, balise `<html>`)
+- `app/globals.css` : styles globaux et couleurs de la charte (tokens Tailwind : `navy`, `emerald`, `deep`, `mint`, `paper`…)
+- `app/icon.svg` : favicon (la patte du logo)
+- `components/` : sections de la page (`Header`, `Hero`, `Formations`, `Equipe`, `Contact`, `Footer`) et éléments du logo (`Logo`, `Paw`, `Bubbles`)
+- `public/images/` : photos (`equipe.jpg`)
 
 Pour ajouter une page, créer un dossier dans `app/` avec un fichier `page.tsx` (par exemple `app/contact/page.tsx` → `/contact`).
 
