@@ -41,7 +41,7 @@ Le build peut se gêner avec l'aperçu en cours sur Windows (dossier `.next` ver
 
 ## 4. Attendre la mise en ligne
 
-Vercel déploie tout seul. Suis le statut du commit (toutes les 20–30 secondes, 5 minutes maximum) :
+Vercel déploie tout seul (environ 1 minute). Suis le statut du commit (toutes les 20–30 secondes, 5 minutes maximum) avec l'outil **Bash** — PowerShell 5.1 casse les guillemets de `--jq` :
 
 ```
 gh api repos/synergievet/siteweb/commits/<sha>/status --jq '.state, (.statuses[] | .context + " : " + .description)'
