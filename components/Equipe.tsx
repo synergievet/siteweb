@@ -29,7 +29,7 @@ export default function Equipe() {
             id="equipe-title"
             className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight text-ink sm:text-5xl"
           >
-            3 associés, une nouvelle aventure.
+            Trois vétérinaires, trois parcours complémentaires.
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-ink-soft">
             SynergieVet est né d&apos;une envie commune : proposer aux vétérinaires
