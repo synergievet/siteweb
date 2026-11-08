@@ -14,14 +14,14 @@ const urbanist = Urbanist({
 });
 
 const description =
-  "SynergieVet propose des formations continues pratiques pour les vétérinaires de Suisse romande et de France voisine. Se former ensemble pour mieux soigner.";
+  "SynergieVet propose des formations continues pratiques pour les vétérinaires et AMVs de Suisse romande et de France voisine. Se former ensemble pour mieux soigner.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.synergievet.ch"),
-  title: "SynergieVet — Formation continue vétérinaire",
+  title: "SynergieVet — Formation continue vétérinaire et AMV",
   description,
   openGraph: {
-    title: "SynergieVet — Formation continue vétérinaire",
+    title: "SynergieVet — Formation continue vétérinaire et AMV",
     description,
     url: "https://www.synergievet.ch",
     siteName: "SynergieVet",

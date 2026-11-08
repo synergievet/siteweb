@@ -33,7 +33,7 @@ export default function Equipe() {
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-ink-soft">
             SynergieVet est né d&apos;une envie commune : proposer aux vétérinaires
-            des formations utiles, ancrées dans le terrain, et créer des moments
+            et AMVs des formations utiles, ancrées dans le terrain, et créer des moments
             de partage entre confrères.
           </p>
           <ul className="mt-8 space-y-3">

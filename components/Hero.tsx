@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 pb-20 pt-16 sm:px-6 sm:pt-24 lg:grid-cols-[1.4fr_1fr] lg:pb-28">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-dark sm:text-sm">
-            Nouveau · Formation continue vétérinaire
+            Nouveau · Formation continue vétérinaire et AMV
           </p>
           <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-6xl">
             Se former ensemble
@@ -24,7 +24,7 @@ export default function Hero() {
             pour mieux soigner.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-soft sm:text-xl">
-            Des formations pratiques pour les vétérinaires de Suisse romande et
+            Des formations pratiques pour les vétérinaires et AMVs de Suisse romande et
             de France voisine.
           </p>
           <p className="mt-4 max-w-xl leading-relaxed text-ink-soft">
@@ -33,8 +33,8 @@ export default function Hero() {
             formation est aussi l&apos;occasion d&apos;échanger sur ses cas, de
             tisser un réseau entre confrères et de passer un bon moment.
             Nos formations se veulent exigeantes : elles sont animées par des
-            intervenants souvent spécialistes, pour vous transmettre des
-            connaissances récentes et à la pointe.
+            intervenants à la pointe, pour vous transmettre des connaissances
+            récentes.
           </p>
 
           <ul
