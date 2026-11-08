@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# photos déposées par l équipe avant intégration
+/photos-a-ajouter/*
+!/photos-a-ajouter/LISEZ-MOI.txt
