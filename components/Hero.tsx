@@ -32,14 +32,34 @@ export default function Hero() {
             ateliers pratiques. Et parce qu&apos;on apprend mieux ensemble, chaque
             formation est aussi l&apos;occasion d&apos;échanger sur ses cas, de
             tisser un réseau entre confrères et de passer un bon moment.
+            Nos formations se veulent exigeantes : elles sont animées par des
+            intervenants souvent spécialistes, pour vous transmettre des
+            connaissances récentes et à la pointe.
           </p>
 
-          <ul className="mt-6 flex flex-wrap gap-2" aria-label="Ce qui nous anime">
+          <ul
+            className="mt-7 grid max-w-xl grid-cols-1 gap-2.5 sm:grid-cols-2"
+            aria-label="Ce qui nous anime"
+          >
             {pillars.map((pillar) => (
               <li
                 key={pillar}
-                className="rounded-full border border-emerald/30 bg-white/70 px-3.5 py-1.5 text-sm font-medium text-navy"
+                className="flex items-center gap-3 rounded-xl border border-emerald/25 bg-white/80 px-4 py-2.5 text-sm font-medium text-navy shadow-sm"
               >
+                <span
+                  aria-hidden="true"
+                  className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald/15 text-emerald-dark"
+                >
+                  <svg viewBox="0 0 16 16" className="h-3.5 w-3.5" fill="none">
+                    <path
+                      d="M3.5 8.5l3 3 6-7"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
                 {pillar}
               </li>
             ))}
