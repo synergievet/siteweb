@@ -14,7 +14,7 @@ const urbanist = Urbanist({
 });
 
 const description =
-  "SynergieVet propose des formations continues pratiques pour les vétérinaires et AMVs de Suisse romande et de France voisine. Se former ensemble pour mieux soigner.";
+  "SynergieVet propose des formations continues pratiques pour les vétérinaires et AMVs de Suisse romande et de France voisine. Chaque compétence compte, ensemble elles font la différence.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.synergievet.ch"),

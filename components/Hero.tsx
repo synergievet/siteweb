@@ -19,9 +19,9 @@ export default function Hero() {
             Nouveau · Formation continue vétérinaire et AMV
           </p>
           <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] tracking-tight text-ink sm:text-6xl">
-            Se former ensemble
+            Chaque compétence compte,
             <br />
-            pour mieux soigner.
+            ensemble elles font la différence.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-soft sm:text-xl">
             Des formations pratiques pour les vétérinaires et AMVs de Suisse romande et
