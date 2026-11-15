@@ -39,7 +39,7 @@ const journees = [
       { quand: "Midi", quoi: "Déjeuner ensemble à l'hôtel, privatisé pour l'occasion" },
       {
         quand: "Après-midi",
-        quoi: "Libre : spa, ski ou snowboard sur les pistes, balade dans la neige face aux sommets",
+        quoi: "Libre : spa, ski ou snowboard sur les pistes (navette privée depuis l'hôtel avec la formule All-in), balade dans la neige face aux sommets",
       },
       { quand: "Soir", quoi: "Dîner tous ensemble à l'hôtel" },
     ],
@@ -78,6 +78,7 @@ const formules = [
       "Les déjeuners du jeudi et du vendredi",
       "Le dîner du jeudi soir",
       "Un forfait boissons de 100.–",
+      "La navette privée de l'hôtel jusqu'aux pistes",
     ],
     miseEnAvant: true,
   },
@@ -242,8 +243,9 @@ export default function FormationJanvier2027() {
                 ensuite le déjeuner à l&apos;hôtel, privatisé pour l&apos;occasion.
                 L&apos;après-midi vous appartient : moment de détente au spa, ski
                 ou snowboard sur les pistes, ou balade dans la neige face aux
-                sommets. Le soir, nous nous retrouverons autour d&apos;un dîner à
-                l&apos;hôtel.
+                sommets. Avec la formule All-in, une navette privée vous
+                conduira de l&apos;hôtel jusqu&apos;aux pistes. Le soir, nous nous retrouverons autour
+                d&apos;un dîner à l&apos;hôtel.
               </p>
               <p className="mt-4 leading-relaxed text-ink-soft">
                 Le vendredi, après une dernière matinée de formation et un
