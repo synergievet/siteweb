@@ -62,7 +62,7 @@ const formules = [
     nom: "Formation seulement",
     prix: "340.–",
     unite: "par demi-journée",
-    detail: null,
+    detail: "Une ou deux matinées, au choix, sans séjour à l'hôtel",
     inclus: [] as string[],
     miseEnAvant: false,
   },
@@ -252,6 +252,17 @@ export default function FormationJanvier2027() {
                 déjeuner ensemble, vous serez libres de prolonger le séjour et de
                 profiter de ce cadre d&apos;exception le temps d&apos;un week-end.
               </p>
+              <div className="mt-8 rounded-2xl border border-emerald/25 bg-white px-6 py-5">
+                <h3 className="font-display text-lg font-bold text-navy">
+                  Vous souhaitez venir uniquement pour la formation ?
+                </h3>
+                <p className="mt-2 leading-relaxed text-ink-soft">
+                  C&apos;est tout à fait possible ! Avec la formule « Formation
+                  seulement », vous pouvez assister à une seule matinée, celle
+                  du jeudi ou celle du vendredi, ou aux deux, sans séjourner à
+                  l&apos;hôtel.
+                </p>
+              </div>
             </div>
 
             <aside
@@ -374,7 +385,11 @@ export default function FormationJanvier2027() {
                     {formule.unite}
                   </p>
                   {formule.detail && (
-                    <p className="mt-1 text-sm font-medium text-mint">{formule.detail}</p>
+                    <p
+                      className={`mt-1 text-sm font-medium ${formule.miseEnAvant ? "text-mint" : "text-emerald-dark"}`}
+                    >
+                      {formule.detail}
+                    </p>
                   )}
                   {formule.inclus.length > 0 && (
                     <ul className="mt-6 space-y-3">
