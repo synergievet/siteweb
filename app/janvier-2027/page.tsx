@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
 };
 
-// En attendant le lien du formulaire Google, le bouton ouvre un e-mail.
+// Formulaire d'inscription Google Forms.
 const inscriptionHref =
-  "mailto:contact@synergievet.ch?subject=Inscription%20%E2%80%94%20formation%20cardiologie%20janvier%202027";
+  "https://docs.google.com/forms/d/e/1FAIpQLSdAu4RHt6eAl72rBuXIlt5yUQPM8Xj5CMHk3oS1aYFm1J765w/viewform";
 
 const infos = [
   { label: "Dates", value: "Jeudi 21 et vendredi 22 janvier 2027" },
