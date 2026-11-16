@@ -134,9 +134,23 @@ export default function FormationJanvier2027() {
           />
 
           <div className="relative mx-auto max-w-6xl px-4 pt-16 sm:px-6 sm:pt-24">
-            <div className="inline-flex items-center gap-2 rounded-full bg-mint-strong/15 px-3.5 py-1.5 text-sm font-medium text-mint">
-              <span className="size-2 rounded-full bg-mint-strong" aria-hidden="true" />
-              Inscriptions ouvertes
+            <div className="flex flex-wrap gap-2">
+              <div className="inline-flex items-center gap-2 rounded-full bg-mint-strong/15 px-3.5 py-1.5 text-sm font-medium text-mint">
+                <span className="size-2 rounded-full bg-mint-strong" aria-hidden="true" />
+                Inscriptions ouvertes
+              </div>
+              <div className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3.5 py-1.5 text-sm font-semibold text-white">
+                <svg aria-hidden="true" viewBox="0 0 16 16" className="size-4 text-mint-strong" fill="none">
+                  <path
+                    d="M3.5 8.5l3 3 6-7"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+                Formation reconnue SVS
+              </div>
             </div>
             <h1
               id="formation-title"
@@ -456,6 +470,16 @@ export default function FormationJanvier2027() {
                   )}
                 </div>
               ))}
+            </div>
+            <div className="mt-6 flex flex-col gap-4 rounded-3xl bg-mint px-6 py-6 sm:flex-row sm:items-center sm:px-8">
+              <p className="shrink-0 font-display text-4xl font-bold tracking-tight text-navy">
+                Jusqu&apos;à CHF 200.–
+              </p>
+              <p className="leading-relaxed text-ink">
+                <span className="font-semibold">de produits Miloa offerts</span>{" "}
+                : CHF 100.– par demi-journée de formation suivie, soit CHF
+                200.– pour les deux matinées.
+              </p>
             </div>
             <p className="mt-6 text-sm text-ink-soft">
               En option, sur demande : location de skis et forfait de ski (non
