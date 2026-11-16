@@ -42,7 +42,7 @@ export default function Formations() {
                 21 et 22 janvier 2027 · Crans-Montana
               </p>
               <h3 className="mt-2 font-display text-2xl font-bold leading-snug sm:text-3xl">
-                La cardiologie en pratique généraliste : urgence ou non-urgence ?
+                Cardiologie pratique du chien et du chat : de l&apos;examen clinique à la prise en charge
               </h3>
               <p className="mt-3 leading-relaxed text-ink-soft">
                 Deux demi-journées avec le Dr Anne-Christine Merveille, à

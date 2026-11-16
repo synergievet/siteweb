@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 const title =
-  "Cardiologie en pratique généraliste — 21 et 22 janvier 2027 à Crans-Montana — SynergieVet";
+  "Cardiologie pratique du chien et du chat — 21 et 22 janvier 2027 à Crans-Montana — SynergieVet";
 const description =
   "Deux demi-journées de formation en cardiologie avec le Dr Anne-Christine Merveille, les 21 et 22 janvier 2027 à l'hôtel cinq étoiles Aïda de Crans-Montana.";
 
@@ -142,7 +142,7 @@ export default function FormationJanvier2027() {
               id="formation-title"
               className="mt-5 max-w-3xl font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl"
             >
-              La cardiologie en pratique généraliste : urgence ou non-urgence ?
+              Cardiologie pratique du chien et du chat : de l&apos;examen clinique à la prise en charge
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80 sm:text-xl">
               Deux demi-journées de formation au cœur des Alpes valaisannes, à
@@ -175,7 +175,7 @@ export default function FormationJanvier2027() {
           aria-labelledby="contenu-title"
           className="bg-white px-4 py-20 sm:px-6 sm:py-28"
         >
-          <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1.2fr_1fr] lg:items-center">
+          <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1.2fr_1fr]">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-dark sm:text-sm">
                 La formation
@@ -184,39 +184,78 @@ export default function FormationJanvier2027() {
                 id="contenu-title"
                 className="mt-4 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl"
               >
-                Urgent ou pas urgent ? Des cas concrets pour trancher avec
-                assurance.
+                Le patient cardiaque, de l&apos;auscultation à la décision.
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-ink-soft">
-                Un chien qui tousse depuis quelques jours, un chat qui respire
-                vite, un souffle découvert lors d&apos;un vaccin… Faut-il agir
-                tout de suite, ou peut-on planifier la suite sereinement ?
+                Un souffle à l&apos;auscultation, un chien qui tousse, un chat
+                qui respire mal… Est-ce le cœur ? Est-ce urgent ? Et surtout,
+                que faire maintenant ?
               </p>
               <p className="mt-4 leading-relaxed text-ink-soft">
-                Cette formation s&apos;appuie sur des cas cliniques tels que
-                vous les rencontrez en pratique généraliste. Ensemble, nous
-                apprendrons à reconnaître ce qui relève de l&apos;urgence et ce
-                qui peut attendre, et à savoir quoi faire dans chaque
-                situation. Vous repartirez avec des repères clairs, que vous
-                pourrez appliquer dès votre retour au cabinet.
+                Cette formation vous donne les clés pour répondre avec
+                assurance. À partir de cas cliniques concrets, nous reprenons
+                pas à pas le raisonnement en cardiologie : tirer le meilleur de
+                l&apos;anamnèse, de l&apos;examen clinique et de
+                l&apos;auscultation, reconnaître les signes qui doivent alerter,
+                puis poser les bonnes décisions thérapeutiques.
+              </p>
+              <p className="mt-4 leading-relaxed text-ink-soft">
+                Un temps fort sera consacré à la{" "}
+                <strong className="font-semibold text-ink">
+                  décompensation cardiaque congestive
+                </strong>{" "}
+                : savoir la reconnaître rapidement et la prendre en charge
+                efficacement.
+              </p>
+              <p className="mt-4 leading-relaxed text-ink-soft">
+                Pas besoin d&apos;un plateau technique de spécialiste : nous
+                verrons comment tirer parti des examens que vous avez déjà sous
+                la main, la radiographie thoracique et le POCUS thoracique.
+              </p>
+              <p className="mt-6 rounded-2xl bg-mint px-5 py-4 font-medium text-ink">
+                Vous repartirez avec des repères pratiques pour identifier les
+                situations à risque, orienter votre diagnostic et adapter la
+                prise en charge de vos patients cardiaques, dès le lendemain au
+                cabinet.
               </p>
             </div>
-            <ul className="space-y-4" aria-label="Ce que vous y trouverez">
-              {[
-                "Des cas cliniques réels, tirés de la consultation de tous les jours",
-                "Les signes qui doivent alerter, et ceux qui peuvent rassurer",
-                "Les bons réflexes : examens utiles, premiers gestes, quand référer",
-                "Des repères simples, à intégrer rapidement dans votre pratique",
-              ].map((point) => (
-                <li
-                  key={point}
-                  className="flex gap-3 rounded-2xl border border-emerald/20 bg-paper px-5 py-4 font-medium text-navy"
-                >
-                  <Check />
-                  {point}
-                </li>
-              ))}
-            </ul>
+            <div className="lg:pt-10">
+              <h3 className="font-display text-xl font-bold text-navy">
+                Les pathologies au programme
+              </h3>
+              <ul className="mt-5 space-y-3">
+                {[
+                  "L'endocardiose mitrale",
+                  "Les dysfonctions systoliques",
+                  "La cardiomyopathie hypertrophique féline",
+                  "Les épanchements péricardiques",
+                ].map((point) => (
+                  <li
+                    key={point}
+                    className="flex gap-3 rounded-2xl border border-emerald/20 bg-paper px-5 py-4 font-medium text-navy"
+                  >
+                    <Check />
+                    {point}
+                  </li>
+                ))}
+              </ul>
+              <h3 className="mt-8 font-display text-xl font-bold text-navy">
+                Les examens à votre portée
+              </h3>
+              <ul className="mt-5 space-y-3">
+                {["La radiographie thoracique", "Le POCUS thoracique"].map(
+                  (point) => (
+                    <li
+                      key={point}
+                      className="flex gap-3 rounded-2xl border border-emerald/20 bg-paper px-5 py-4 font-medium text-navy"
+                    >
+                      <Check />
+                      {point}
+                    </li>
+                  ),
+                )}
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -270,7 +309,7 @@ export default function FormationJanvier2027() {
               className="self-start rounded-3xl bg-mint px-6 py-8 sm:px-8"
             >
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-dark">
-                L&apos;intervenant
+                L&apos;intervenante
               </p>
               <h3
                 id="intervenant-title"
@@ -278,11 +317,22 @@ export default function FormationJanvier2027() {
               >
                 Dr Anne-Christine Merveille
               </h3>
-              <p className="mt-1 font-medium text-navy">Dipl. ECVIM-CA, PhD</p>
+              <p className="mt-1 font-medium text-navy">
+                DMV, PhD, Dip. ECVIM-CA (Cardiology)
+              </p>
               <p className="mt-4 leading-relaxed text-ink-soft">
-                Spécialiste en cardiologie, pour vous transmettre des
-                connaissances récentes et directement utiles en pratique
-                généraliste.
+                Cardiologue à l&apos;Université de Liège depuis 2014, elle est
+                diplômée du Collège européen de médecine interne vétérinaire en
+                cardiologie. Formée entre Liège, Lyon et le Royal Veterinary
+                College de Londres, elle forme aujourd&apos;hui les internes et
+                les résidents en cardiologie.
+              </p>
+              <p className="mt-3 leading-relaxed text-ink-soft">
+                Passionnée de clinique, elle aime le contact avec les patients
+                et leurs propriétaires, et partager son expérience avec les
+                praticiens. Ses travaux portent notamment sur l&apos;évaluation
+                cardiovasculaire en urgence (CV-POCUS) et l&apos;hypertension
+                pulmonaire chez le chien.
               </p>
             </aside>
           </div>
