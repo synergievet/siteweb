@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 const title =
-  "Cardiologie pratique du chien et du chat — 21 et 22 janvier 2027 à Crans-Montana — SynergieVet";
+  "Cardiologie : ne plus hésiter face à un cas cardiaque — 21 et 22 janvier 2027 à Crans-Montana — SynergieVet";
 const description =
   "Deux demi-journées de formation en cardiologie avec le Dr Anne-Christine Merveille, les 21 et 22 janvier 2027 à l'hôtel cinq étoiles Aïda de Crans-Montana.";
 
@@ -156,8 +156,11 @@ export default function FormationJanvier2027() {
               id="formation-title"
               className="mt-5 max-w-3xl font-display text-4xl font-bold leading-[1.05] tracking-tight sm:text-6xl"
             >
-              Cardiologie pratique du chien et du chat : de l&apos;examen clinique à la prise en charge
+              Cardiologie : ne plus hésiter face à un cas cardiaque
             </h1>
+            <p className="mt-4 max-w-3xl font-display text-2xl font-semibold text-mint-strong sm:text-3xl">
+              De l&apos;examen clinique à la prise en charge
+            </p>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80 sm:text-xl">
               Deux demi-journées de formation au cœur des Alpes valaisannes, à
               l&apos;hôtel cinq étoiles Aïda de Crans-Montana.
