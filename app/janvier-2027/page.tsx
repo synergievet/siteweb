@@ -36,19 +36,19 @@ const journees = [
     jour: "Jeudi 21 janvier",
     moments: [
       { quand: "Matin", quoi: "Formation" },
-      { quand: "Midi", quoi: "Déjeuner ensemble à l'hôtel, privatisé pour l'occasion" },
+      { quand: "Midi", quoi: "Dîner ensemble à l'hôtel, privatisé pour l'occasion" },
       {
         quand: "Après-midi",
         quoi: "Libre : spa, ski ou snowboard sur les pistes (navette privée depuis l'hôtel avec la formule All-in), balade dans la neige face aux sommets",
       },
-      { quand: "Soir", quoi: "Dîner tous ensemble à l'hôtel" },
+      { quand: "Soir", quoi: "Souper tous ensemble à l'hôtel" },
     ],
   },
   {
     jour: "Vendredi 22 janvier",
     moments: [
       { quand: "Matin", quoi: "Dernière matinée de formation" },
-      { quand: "Midi", quoi: "Déjeuner ensemble" },
+      { quand: "Midi", quoi: "Dîner ensemble" },
       {
         quand: "Ensuite",
         quoi: "Libre à vous de prolonger le séjour le temps d'un week-end",
@@ -75,8 +75,8 @@ const formules = [
       "Les deux demi-journées de formation",
       "La nuit à l'hôtel avec le petit-déjeuner",
       "Les prestations de l'hôtel, dont l'accès au spa",
-      "Les déjeuners du jeudi et du vendredi",
-      "Le dîner du jeudi soir",
+      "Les dîners (repas de midi) du jeudi et du vendredi",
+      "Le souper du jeudi soir",
       "Un forfait boissons de 100.–",
       "La navette privée de l'hôtel jusqu'aux pistes",
     ],
@@ -295,17 +295,18 @@ export default function FormationJanvier2027() {
                 valaisannes, à l&apos;hôtel cinq étoiles Aïda de Crans-Montana.
               </p>
               <p className="mt-4 leading-relaxed text-ink-soft">
-                Les matinées seront consacrées à la formation. Nous partagerons
-                ensuite le déjeuner à l&apos;hôtel, privatisé pour l&apos;occasion.
+                Les matinées seront consacrées à la formation. À midi, nous
+                partagerons le dîner à l&apos;hôtel, privatisé pour
+                l&apos;occasion.
                 L&apos;après-midi vous appartient : moment de détente au spa, ski
                 ou snowboard sur les pistes, ou balade dans la neige face aux
                 sommets. Avec la formule All-in, une navette privée vous
                 conduira de l&apos;hôtel jusqu&apos;aux pistes. Le soir, nous nous retrouverons autour
-                d&apos;un dîner à l&apos;hôtel.
+                d&apos;un souper à l&apos;hôtel.
               </p>
               <p className="mt-4 leading-relaxed text-ink-soft">
                 Le vendredi, après une dernière matinée de formation et un
-                déjeuner ensemble, vous serez libres de prolonger le séjour et de
+                dîner ensemble à midi, vous serez libres de prolonger le séjour et de
                 profiter de ce cadre d&apos;exception le temps d&apos;un week-end.
               </p>
               <div className="mt-8 rounded-2xl border border-emerald/25 bg-white px-6 py-5">
